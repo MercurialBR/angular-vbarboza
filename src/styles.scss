@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary-color: #56070C;
+  --secondary-color: #FFFFFF;
+  --terciary-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+  user-select: none;
+}
+
+body {
+  background-color: var(--terciary-color);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+@font-face {
+  font-family: 'Oswald' ;
+  src: url('assets/font/Oswald.ttf');
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: .9rem;
+  }
+  p{
+    font-size: .8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+}
