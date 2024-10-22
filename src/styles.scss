@@ -63,3 +63,12 @@ body::-webkit-scrollbar-thumb {
     font-size: 1rem;
   }
 }
+
+@keyframes rotation {
+  from {
+         transform: rotate(8deg);
+  }
+  to {
+         transform: rotate(360deg);
+  }
+}
