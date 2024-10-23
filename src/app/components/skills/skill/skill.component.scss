@@ -1,0 +1,23 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 120px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+
+  img {
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+  }
+
+  h4 {
+    color: var(--primary-color);
+  }
+}

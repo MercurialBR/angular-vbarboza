@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { BannerInfiniteComponent } from './components/banner-infinite/banner-infinite.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillComponent } from './components/skills/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { BannerInfiniteComponent } from './components/banner-infinite/banner-inf
     NavBarComponent,
     BannerComponent,
     BannerInfiniteComponent,
+    SkillsComponent,
+    SkillComponent,
   ],
   imports: [
     BrowserModule,
