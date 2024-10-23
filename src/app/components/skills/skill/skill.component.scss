@@ -7,10 +7,10 @@
   width: 120px;
   height: 150px;
   border-radius: 15px;
+  border: 8px double var(--primary-color);
   background-color: var(--secondary-color);
 
   img {
-    background-color: var(--primary-color);
     border-radius: 12px;
     width: 90px;
     height: 90px;

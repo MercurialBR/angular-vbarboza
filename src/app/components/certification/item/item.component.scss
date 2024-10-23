@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+
+  h3 {
+    color: var(--secondary-color);
+    font-weight: 400;
+  }
+
+  button {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+    i {
+      margin: 0 5px;
+    }
+  }
+}
+
+hr {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+}
+

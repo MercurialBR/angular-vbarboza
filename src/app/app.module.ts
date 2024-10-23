@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -8,6 +8,9 @@ import { BannerComponent } from './components/banner/banner.component';
 import { BannerInfiniteComponent } from './components/banner-infinite/banner-infinite.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SkillComponent } from './components/skills/skill/skill.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { CertificationComponent } from './components/certification/certification.component';
+import { ItemComponent } from './components/certification/item/item.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,16 @@ import { SkillComponent } from './components/skills/skill/skill.component';
     BannerInfiniteComponent,
     SkillsComponent,
     SkillComponent,
+    ProjectsComponent,
+    CertificationComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }

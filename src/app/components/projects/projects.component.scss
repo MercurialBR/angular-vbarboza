@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+  padding: 100px 200px;
+
+  h1 {
+    color: var(--secondary-color);
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .project {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+  }
+
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

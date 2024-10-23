@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+  padding: 100px 200px;
+
+  h1 {
+    color: var(--secondary-color);
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  hr {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+  }
+}
