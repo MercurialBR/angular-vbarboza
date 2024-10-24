@@ -11,6 +11,9 @@ import { SkillComponent } from './components/skills/skill/skill.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CertificationComponent } from './components/certification/certification.component';
 import { ItemComponent } from './components/certification/item/item.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { NameComponent } from './components/name/name.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ItemComponent } from './components/certification/item/item.component';
     ProjectsComponent,
     CertificationComponent,
     ItemComponent,
+    AboutMeComponent,
+    NameComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

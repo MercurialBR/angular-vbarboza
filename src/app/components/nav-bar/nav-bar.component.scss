@@ -51,6 +51,10 @@
   outline: 2px solid #000;
   cursor: pointer;
 
+  a {
+    text-decoration: none;
+  }
+
   h3 {
     color: var(--primary-color);
     font-size: 1.25rem;
